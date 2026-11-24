@@ -1,0 +1,33 @@
+# Local working notes
+.notes/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+
+# Dependencies and builds
+node_modules/
+dist/
+.turbo/
+coverage/
+*.tsbuildinfo
+storybook-static/
+
+# Test and audit output
+playwright-report/
+test-results/
+.lighthouseci/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+!*.tfvars.example
+
+# OS/editor
+.DS_Store
+Thumbs.db
