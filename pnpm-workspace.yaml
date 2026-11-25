@@ -1,0 +1,7 @@
+packages:
+  - apps/*
+  - packages/*
+
+# Supply-chain guard: ignore versions published less than 7 days ago (value is
+# in minutes). Most malicious releases are caught and removed within days.
+minimumReleaseAge: 10080
